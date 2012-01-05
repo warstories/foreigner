@@ -1,8 +1,8 @@
 # -*- encoding: utf-8 -*-
  
 Gem::Specification.new do |s|
-  s.name = 'foreigner'
-  s.version = '1.2.0'
+  s.name = 'ws-foreigner'
+  s.version = '1.2.1'
   s.summary = 'Foreign Keys for Rails'
   s.description = 'Adds helpers to migrations and dumps foreign keys to schema.rb'
 
@@ -16,6 +16,6 @@ Gem::Specification.new do |s|
 
   s.extra_rdoc_files = %w(README.rdoc)
   s.files = %w(MIT-LICENSE Rakefile README.rdoc) + Dir['lib/**/*.rb'] + Dir['test/**/*.rb']
-  s.add_dependency('activerecord', '>= 3.0.0')
+  s.add_dependency('activerecord', '>= 3.1.0')
   s.add_development_dependency('activerecord', '>= 3.1.0')
 end
